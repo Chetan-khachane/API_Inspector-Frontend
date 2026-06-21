@@ -9,7 +9,7 @@ export default function Layout() {
     const [history,setHistory] = useState({})
 
   const fetchHistory = async() =>{
-     const response =  await axios.get("http://127.0.0.1:5001/api/history")
+     const response =  await axios.get("https://api-inspector-backend.vercel.app/api/history")
      setHistory(response.data)
   }
 
