@@ -1,6 +1,3 @@
-import { SidebarProvider } from "@/components/ui/sidebar"
-import { Sidebar } from "@/components/ui/sidebar"
-import Menu from "./components/Menu"
 import Home from "./pages/Home"
 import LoadTest from "./pages/LoadTest"
 import { Routes, Route } from "react-router-dom"
