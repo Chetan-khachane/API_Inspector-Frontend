@@ -59,7 +59,7 @@ export default function LoadTest(){
 
       
       const response = await axios.post(
-        "http://127.0.0.1:5001/api/load_test",
+        "https://api-inspector-backend.vercel.app/api/load_test",
         {
           url: url,
           method: method,
