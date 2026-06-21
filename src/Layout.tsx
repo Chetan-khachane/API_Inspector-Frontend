@@ -3,7 +3,6 @@ import { Outlet } from "react-router-dom"
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
 import Menu from "./components/Menu"
 import axios from "axios"
-import React from "react"
 import { useState,useEffect } from "react"
 
 export default function Layout() {
