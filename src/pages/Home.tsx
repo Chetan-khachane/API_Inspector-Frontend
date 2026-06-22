@@ -54,7 +54,7 @@ export default function Home() {
       const formattedAuth = rowsToObject(auth)
 
       const response = await axios.post(
-        "https://api-inspector-backend.vercel.app/api/request",
+        "https://chetanx655-api-inspector.hf.space/api/request",
         {
           url: url,
           method: method,
