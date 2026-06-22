@@ -59,7 +59,7 @@ export default function LoadTest(){
 
       
       const response = await axios.post(
-        "https://api-inspector-backend.vercel.app/api/load_test",
+        "https://chetanx655-api-inspector.hf.space/api/load_test",
         {
           url: url,
           method: method,
